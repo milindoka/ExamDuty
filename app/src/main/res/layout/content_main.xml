@@ -12,7 +12,7 @@
         android:id="@+id/relativeLayout1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="5sp"
+
         android:background="@color/colorCell" >
 
         <TextView
@@ -21,7 +21,10 @@
             android:layout_weight="1"
             android:gravity="center"
             android:padding="5dp"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="1dp"
             android:text="@string/sNo"
+
             android:textColor="#ffffff" >
         </TextView>
 
@@ -31,6 +34,8 @@
             android:layout_weight="2"
             android:gravity="center"
             android:padding="5dp"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="1dp"
             android:text="@string/product"
             android:textColor="#ffffff" >
         </TextView>
@@ -42,6 +47,8 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/category"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="1dp"
             android:textColor="#ffffff" >
         </TextView>
 
@@ -50,13 +57,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="1dp"
             android:padding="5dp"
             android:text="@string/price"
             android:textColor="#ffffff" >
         </TextView>
     </LinearLayout>
-
-
 
     <ListView
         android:id="@+id/listview"
